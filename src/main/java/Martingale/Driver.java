@@ -61,8 +61,8 @@ public class Driver {
 	}
 
 	private static void init() {
-		startingAmount = 4264; // Balance to start with
-		baseBet = 100; // The default bet amount (winning will give you this much every time)
+		startingAmount = 4385; // Balance to start with
+		baseBet = 10; // The default bet amount (winning will give you this much every time)
 		numRepeats = 100000; // Number of times to run the simulation until you can't bet anymore (higher = more accurate avg iters)
 
 		curBet = baseBet;
